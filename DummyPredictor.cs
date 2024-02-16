@@ -1,5 +1,8 @@
 ﻿namespace Lecture8
 {
+    // fake predictore, assumes a linear relation between the country
+    // happiness score and the GDP, predicting the country rank.
+    // obviously this relation does not hold.
     public class DummyPredictor : IPredictor
     {
         public double Predict(double x)
