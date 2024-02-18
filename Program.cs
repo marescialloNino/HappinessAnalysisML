@@ -52,9 +52,9 @@ namespace Lecture8
 
         public static void Main(string[] args)
         {
-            PrintProjectHeading();
+/*             PrintProjectHeading();
             DummyTest();
-            HierarchyTest();
+            HierarchyTest(); */
             /*
              * 1. Look at the data and identify x and y
              * 2. Prepare a dummy predictor
@@ -64,6 +64,8 @@ namespace Lecture8
              * 6. Test
              * 7. ...
              */
+             IOHelper.Test();
+             
         }
     }
 }

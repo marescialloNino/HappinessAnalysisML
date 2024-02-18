@@ -14,12 +14,12 @@ namespace Lecture8
             string[] countryNames = new string[maxLines];
             double[] countrScores = new double[maxLines];
             // path where the input file is located
-            string inputFilePath = "/tmp/2015.csv";
+            string inputFilePath = "./happinessData/2016.csv";
 
             // path where the output file will be stored
-            string outputFilePath = "/tmp/2015_train.csv";
+            string outputFilePath = "./happinessData/2016_reduced.csv";
 
-            StreamReader sr = null;
+            StreamReader? sr = null;
 
             String s = "";
 
